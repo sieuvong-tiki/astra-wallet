@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "Keplr",
+  "name": "Keplr DEV",
   "description": "Keplr is a browser extension wallet for the Inter blockchain ecosystem.",
   "version": "0.9.13",
   "applications": {
