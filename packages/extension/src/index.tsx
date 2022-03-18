@@ -40,7 +40,6 @@ import {
   SettingSecret20ViewingKeyConnectionsPage,
 } from "./pages/setting/connections";
 import { AddressBookPage } from "./pages/setting/address-book";
-import { CreditPage } from "./pages/setting/credit";
 import { ChangeNamePage } from "./pages/setting/keyring/change";
 import { ClearPage } from "./pages/setting/clear";
 import { ExportPage } from "./pages/setting/export";
@@ -180,7 +179,6 @@ ReactDOM.render(
                   path="/setting/export-to-mobile"
                   component={ExportToMobilePage}
                 />
-                <Route exact path="/setting/credit" component={CreditPage} />
                 <Route
                   exact
                   path="/setting/set-keyring"

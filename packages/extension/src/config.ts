@@ -39,7 +39,7 @@ export const EmbedChainInfos: ChainInfo[] = [
       {
         coinDenom: "STAKE",
         coinMinimalDenom: "stake",
-        coinDecimals: 6,
+        coinDecimals: 8,
         coinGeckoId: "stake",
       },
     ],
@@ -47,7 +47,7 @@ export const EmbedChainInfos: ChainInfo[] = [
       {
         coinDenom: "STAKE",
         coinMinimalDenom: "stake",
-        coinDecimals: 6,
+        coinDecimals: 8,
         coinGeckoId: "stake",
       },
     ],

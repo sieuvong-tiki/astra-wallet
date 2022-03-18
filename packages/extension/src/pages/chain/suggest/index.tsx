@@ -23,7 +23,7 @@ export const ChainSuggestedPage: FunctionComponent = observer(() => {
         <img
           src={require("../../../public/assets/logo.png")}
           alt="logo"
-          style={{ height: "92px" }}
+          style={{ width: "100px", height: "100px", margin: "0 auto" }}
         />
         <h1 className={style.header}>
           <FormattedMessage id="chain.suggested.title" />

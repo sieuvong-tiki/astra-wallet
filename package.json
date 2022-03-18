@@ -1,6 +1,6 @@
 {
-  "name": "keplr",
-  "description": "Keplr is a browser extension wallet for the Inter blockchain ecosystem.",
+  "name": "astra-wallet",
+  "description": "Astra Wallet is a browser extension wallet for the Astra blockchain ecosystem.",
   "private": true,
   "workspaces": {
     "packages": [

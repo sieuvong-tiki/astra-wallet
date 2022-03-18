@@ -203,6 +203,7 @@ export const StakeView: FunctionComponent = observer(() => {
             className={classnames(styleStake.button, {
               disabled: !isStakableExist,
             })}
+            disabled
             color="primary"
             size="sm"
             outline={isRewardExist}
