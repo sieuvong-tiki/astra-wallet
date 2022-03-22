@@ -15,13 +15,13 @@ export const EmbedChainInfos: ChainInfo[] = [
     rpcConfig: ASTRA_RPC_CONFIG,
     rest: ASTRA_REST_ENDPOINT,
     restConfig: ASTRA_REST_CONFIG,
-    chainId: "dev-sentry-1",
+    chainId: "astra-devnet-001",
     chainName: "Astra",
     stakeCurrency: {
-      coinDenom: "STAKE",
-      coinMinimalDenom: "stake",
+      coinDenom: "ASTRA",
+      coinMinimalDenom: "astra",
       coinDecimals: 6,
-      coinGeckoId: "stake",
+      coinGeckoId: "astra",
     },
     walletUrl:
       process.env.NODE_ENV === "production"
@@ -34,21 +34,21 @@ export const EmbedChainInfos: ChainInfo[] = [
     bip44: {
       coinType: 118,
     },
-    bech32Config: Bech32Address.defaultBech32Config("cosmos"),
+    bech32Config: Bech32Address.defaultBech32Config("astra"),
     currencies: [
       {
-        coinDenom: "STAKE",
-        coinMinimalDenom: "stake",
-        coinDecimals: 8,
-        coinGeckoId: "stake",
+        coinDenom: "ASTRA",
+        coinMinimalDenom: "astra",
+        coinDecimals: 6,
+        coinGeckoId: "astra",
       },
     ],
     feeCurrencies: [
       {
-        coinDenom: "STAKE",
-        coinMinimalDenom: "stake",
-        coinDecimals: 8,
-        coinGeckoId: "stake",
+        coinDenom: "ASTRA",
+        coinMinimalDenom: "astra",
+        coinDecimals: 6,
+        coinGeckoId: "astra",
       },
     ],
     coinType: 118,
