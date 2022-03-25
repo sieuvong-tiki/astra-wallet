@@ -56,7 +56,7 @@ import { Keplr } from "@keplr-wallet/provider";
 import { InExtensionMessageRequester } from "@keplr-wallet/router-extension";
 import { ExportToMobilePage } from "./pages/setting/export-to-mobile";
 
-window.keplr = new Keplr(
+window.astra = new Keplr(
   manifest.version,
   "core",
   new InExtensionMessageRequester()
