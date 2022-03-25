@@ -23,6 +23,13 @@ export const EthereumEndpoint = ETHEREUM_ENDPOINT;
 
 export const FiatCurrencies: FiatCurrency[] = [
   {
+    currency: "xu",
+    symbol: "Xu",
+    locale: "vi-VN",
+    maxDecimals: 0,
+    isCustom: true,
+  },
+  {
     currency: "usd",
     symbol: "$",
     maxDecimals: 2,
@@ -91,7 +98,8 @@ export const FiatCurrencies: FiatCurrency[] = [
 ];
 
 export const LanguageToFiatCurrency: TypeLanguageToFiatCurrency = {
-  default: "usd",
+  default: "xu",
+  vi: "xu",
   ko: "krw",
 };
 
